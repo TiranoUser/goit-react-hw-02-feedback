@@ -1,6 +1,8 @@
+import { FeedBackSection } from './Section.styled.jsx';
+
 export const Section = ({ title, children }) => (
-  <section>
+  <FeedBackSection>
     <h1>{title}</h1>
     {children}
-  </section>
+  </FeedBackSection>
 );
